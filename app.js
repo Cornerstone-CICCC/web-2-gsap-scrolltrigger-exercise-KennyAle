@@ -23,7 +23,6 @@ const secondLine = gsap.timeline(
         scrollTrigger: {
             trigger: '.line-two',
             start: 'top top',
-            markers: true,
             pin: true,
             scrub: true
         }
